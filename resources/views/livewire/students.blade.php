@@ -27,7 +27,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($gah as $karim)
+                                @foreach($unisel as $karim)
                                 <tr>
                                     <td>{{$karim->firstname}}</td>
                                     <td>{{$karim->lastname}}</td>

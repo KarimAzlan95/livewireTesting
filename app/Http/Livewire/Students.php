@@ -83,7 +83,7 @@ public function delete($id){
 
     public function render()
     {
-        $gah = Student::all();
-        return view('livewire.students',['gah'=>$gah]);
+        $unisel = Student::all();
+        return view('livewire.students',['unisel'=>$unisel]);
     }
 }
