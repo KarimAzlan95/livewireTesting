@@ -27,16 +27,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($unisel as $karim)
+                                @foreach($unisel as $haha)
                                 <tr>
-                                    <td>{{$karim->firstname}}</td>
-                                    <td>{{$karim->lastname}}</td>
-                                    <td>{{$karim->email}}</td>
-                                    <td>{{$karim->phone}}</td>
+                                    <td>{{$haha->firstname}}</td>
+                                    <td>{{$haha->lastname}}</td>
+                                    <td>{{$haha->email}}</td>
+                                    <td>{{$haha->phone}}</td>
                                     <td>
                                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#updatestudentmodal" wire:click.prevent="
-                                        edit({{$karim->id}})" />Edit</button>
-                                        <button type="button" class="btn btn-danger" wire:click.prevent="delete({{$karim->id}})">Delete</button>
+                                        edit({{$haha->id}})" />Edit</button>
+                                        <button type="button" class="btn btn-danger" wire:click.prevent="delete({{$haha->id}})">Delete</button>
                                     </td>
                                 </tr>
                                 @endforeach
